@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Home = () => {
+    localStorage.removeItem('Score');
     return (
         <div>
             <h2>홈페이지</h2>

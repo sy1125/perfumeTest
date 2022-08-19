@@ -10,15 +10,12 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      total: 0,
-      nowQuestion: 0,
+      total: null,
     }
   }
   handleClick(score) {
-    const total = this.state.total + score;
     this.setState({
-      total:total,
-      nowQuestion: this.state.nowQuestion+1
+      total: score,
     });
   }
   render() {
@@ -27,7 +24,7 @@ class App extends React.Component {
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/test" element={<Question1 now={this.state.nowQuestion} question1={QuestionList} onClick={this.handleClick.bind(this)}/>} /> */}
-        <Route path="/test:id" element={<Question1 now={this.state.nowQuestion} question1={QuestionList} onClick={this.handleClick.bind(this)}/>} />
+        <Route path="/test:id" element={<Question1 question1={QuestionList} onClick={this.handleClick.bind(this)}/>} />
         <Route path="/result" element={<Result totalScore={this.state.total}/>} />
       </Routes>
     </BrowserRouter>
