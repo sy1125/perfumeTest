@@ -1,6 +1,87 @@
-div {
+.App {
+    overflow: hidden;
+}
+.home {
+    color: #637069;
+}
+.home .section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.home .section h2, .home .section h3, .home .section p {
+    text-align: center;
+}
+.home .section .subtitle {
+    font-size: 40px;
+    padding: 50px 0 100px;
+}
+.home .section .text-title {
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.home .section .text {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 40px 0 90px;
+}
+.home .section video {
+    margin-top: 35px; 
+}
+.home .section1 {
+    width: 100%;
+    height: 100vh;
+}
+.home .section1 .title {
+    font-size: 100px;
+    font-weight: bold;
+    padding: 200px 0 50px;
+}
+.home .section1 .btn-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto 0;
+    width: 500px;
+    height: 150px;
+    font-size: 60px;
+    color: #637069;
+    border: 1px solid #637069;
+    text-decoration: none;
+}
+.footer {
+    padding: 40px 0;
+    width: 100%;
+    color: #637069;
+    background: #EBEBE9;
+}
+.footer .footer-area {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.footer .footer-area .footer-group {
+    flex: 1;
+    text-align: center;
+}
+.footer .footer-area .footer-group .title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footer .footer-area .footer-group .text {
+    margin-top: 15px;
+}
+.footer .copy {
+    text-align: center;
+    margin-top: 40px;
+}
+.question {
     margin: 30px;
 }
-.testLink {
-    font-size: 20px;
+.question .text {
+    margin-top: 15px;
+    border: 1px solid red;
+}
+.question .text:hover {
+    cursor: pointer;
 }

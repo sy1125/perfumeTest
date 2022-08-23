@@ -31,10 +31,10 @@ function Question1({question1, onClick}) {
 
     return (
         <div>
-            <h2>질문 테스트</h2>
-            <div>
+            <div className="question">
+                <h2>질문 테스트</h2>
                 {question1[now].map((it) => (
-                    <div key={it.question_id}>
+                    <div key={it.question_id} className="text">
                         <div onClick={()=>{
                             handleClick(it.score);
                             navigate(next);

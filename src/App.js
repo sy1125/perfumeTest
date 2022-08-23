@@ -1,4 +1,5 @@
 import React from "react";
+import { Reset } from 'styled-reset'
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -20,10 +21,10 @@ class App extends React.Component {
   }
   render() {
     return <div className="App">
+    <Reset />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/test" element={<Question1 now={this.state.nowQuestion} question1={QuestionList} onClick={this.handleClick.bind(this)}/>} /> */}
         <Route path="/test:id" element={<Question1 question1={QuestionList} onClick={this.handleClick.bind(this)}/>} />
         <Route path="/result" element={<Result totalScore={this.state.total}/>} />
       </Routes>
