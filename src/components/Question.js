@@ -2,6 +2,7 @@ export const QuestionList = [
     [
         {
             question_id: 1,
+            question_title: "질문제목1",
             question_content: "신인가?",
             score: 3
         },
@@ -19,6 +20,7 @@ export const QuestionList = [
     [
         {
             question_id: 1,
+            question_title: "질문제목2",
             question_content: "직업이 있는가?",
             score: 1
         },
@@ -36,6 +38,7 @@ export const QuestionList = [
     [
         {
             question_id: 1,
+            question_title: "질문제목3",
             question_content: "분수인가?",
             score: 3
         },

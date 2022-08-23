@@ -21,15 +21,15 @@ class App extends React.Component {
   }
   render() {
     return <div className="App">
-    <Reset />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/test:id" element={<Question1 question1={QuestionList} onClick={this.handleClick.bind(this)}/>} />
-        <Route path="/result" element={<Result totalScore={this.state.total}/>} />
-      </Routes>
-    </BrowserRouter>
-  </div>
+      <Reset />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/test:id" element={<Question1 question1={QuestionList} onClick={this.handleClick.bind(this)} />} />
+          <Route path="/result" element={<Result totalScore={this.state.total} />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   }
 }
 
