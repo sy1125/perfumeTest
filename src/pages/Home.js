@@ -6,7 +6,7 @@ const Home = () => {
     localStorage.removeItem('Score');
     return (
         <div className="home">
-            <div className="section section1">
+            <div className="section1">
                 <h2 className="title">Test Your Perfume</h2>
                 <p className="subtitle">테스트를 통해 당신에게 맞는 향수를 찾아보세요</p>
                 <Link className="btn-test" to={"/test1"} replace>START</Link>

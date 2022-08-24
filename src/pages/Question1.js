@@ -33,15 +33,17 @@ function Question1({ question1, onClick }) {
         <div>
             <div className="question">
                 <span className="title-num">Q{now + 1}.</span>
-                {question1[now].map((it) => (
-                    <div key={it.question_id}>
-                        <span className="title">{it.question_title}</span>
-                        <div className="text" onClick={() => {
-                            handleClick(it.score);
-                            navigate(next);
-                        }}>{it.question_content}</div>
-                    </div>
-                ))}
+                <div className="text-container">
+                    {question1[now].map((it) => (
+                        <div key={it.question_id}>
+                            <span className="title">{it.question_title}</span>
+                            <div className="text" onClick={() => {
+                                handleClick(it.score);
+                                navigate(next);
+                            }}>{it.question_content}</div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
