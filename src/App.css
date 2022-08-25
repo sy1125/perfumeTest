@@ -54,6 +54,7 @@
     text-decoration: none;
 }
 .footer {
+    margin-top: 130px;
     padding: 40px 0;
     width: 100%;
     color: #637069;
@@ -78,6 +79,23 @@
 .footer .copy {
     text-align: center;
     margin-top: 40px;
+}
+/* PerfumeSlider */
+.slide-title {
+    display: block;
+    margin-top: 30px;
+    width: 400px;
+    font-size: 18px;
+    color: #637069;
+    text-align: center;
+}
+.slide-text {
+    display: block;
+    margin-top: 25px;
+    width: 400px;
+    font-size: 16px;
+    color: #637069;
+    text-align: center;
 }
 /* Question1 */
 .question {

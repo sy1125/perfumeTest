@@ -5,7 +5,6 @@
 
     display: block;
     box-sizing: border-box;
-
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -78,7 +77,6 @@
 {
     display: none;
     float: left;
-
     height: 100%;
     min-height: 1px;
 }
@@ -89,6 +87,7 @@
 .slick-slide img
 {
     display: block;
+    width: 400px;
 }
 .slick-slide.slick-loading img
 {
@@ -117,3 +116,7 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+/*  */
+/* .slick-slider>div {
+    width: 400px;
+} */

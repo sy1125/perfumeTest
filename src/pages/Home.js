@@ -18,7 +18,11 @@ const Home = () => {
                 이러한 시대에서 아직 자신에게 맞는향수를 찾지 못해 허우적거리는 여러분을 위해,<br />
                 저희는 그러한 여러분에게 최적화된 향수를 추천해드리는 서비스이며,<br />
                 이 서비스가 저희의 존재 가치입니다.</p>
-                {/* <video width="1015px" height="535px" src="" autoplay muted loop playsinline></video> */}
+                <div align="center">
+                    <video width="1015px" height="535px" autoPlay muted loop>
+                        <source src="/videos/perfume_video.mp4" type="video/mp4" />
+                    </video>
+                </div>
             </div>
             <div className="section">
                 <h3 className="text-title">Another Pick</h3>
