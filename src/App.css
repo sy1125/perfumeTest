@@ -1,34 +1,45 @@
 .App {
     overflow: hidden;
 }
+
 /* Home */
 .home {
     color: #637069;
 }
+
 .home .section {
     max-width: 1400px;
     margin: 0 auto;
 }
-.home .section h2, .home .section h3, .home .section p {
+
+.home .section h2,
+.home .section h3,
+.home .section p {
     text-align: center;
 }
-.home .section .subtitle, .home .section1 .subtitle {
+
+.home .section .subtitle,
+.home .section1 .subtitle {
     font-size: 40px;
     padding: 50px 0 100px;
 }
+
 .home .section .text-title {
     padding-top: 150px;
     font-size: 60px;
     font-weight: bold;
 }
+
 .home .section .text {
     font-size: 18px;
     line-height: 26px;
     padding: 40px 0 90px;
 }
+
 .home .section video {
-    margin-top: 35px; 
+    margin-top: 35px;
 }
+
 .home .section1 {
     width: 100%;
     height: 100vh;
@@ -36,11 +47,13 @@
     background: url("/public/images/flower_bg.png") no-repeat center center;
     background-size: cover;
 }
+
 .home .section1 .title {
     font-size: 100px;
     font-weight: bold;
     padding: 200px 0 50px;
 }
+
 .home .section1 .btn-test {
     display: flex;
     justify-content: center;
@@ -53,6 +66,36 @@
     border: 1px solid #637069;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1080px) {
+
+    .home .section .subtitle,
+    .home .section1 .subtitle {
+        font-size: 20px;
+        padding: 25px 0 50px;
+    }
+
+    .home .section .text-title {
+        font-size: 30px;
+    }
+
+    .home .section1 .title {
+        padding: 150px 0 25px;
+        font-size: 50px;
+    }
+
+    .home .section video {
+        width: 500px;
+    }
+
+    .home .section1 .btn-test {
+        margin: 100px auto 0;
+        width: 250px;
+        height: 75px;
+        font-size: 30px;
+    }
+}
+
 .footer {
     margin-top: 130px;
     padding: 40px 0;
@@ -60,26 +103,32 @@
     color: #637069;
     background: #EBEBE9;
 }
+
 .footer .footer-area {
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
 }
+
 .footer .footer-area .footer-group {
     flex: 1;
     text-align: center;
 }
+
 .footer .footer-area .footer-group .title {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
 .footer .footer-area .footer-group .text {
     margin-top: 15px;
 }
+
 .footer .copy {
     text-align: center;
     margin-top: 40px;
 }
+
 /* PerfumeSlider */
 .slide-title {
     display: block;
@@ -89,6 +138,7 @@
     color: #637069;
     text-align: center;
 }
+
 .slide-text {
     display: block;
     margin-top: 25px;
@@ -97,30 +147,36 @@
     color: #637069;
     text-align: center;
 }
+
 /* Question1 */
 .question {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     max-width: 400px;
 }
+
 .question .title-num {
     display: block;
     font-size: 50px;
     font-weight: bold;
     color: #637069;
 }
+
 .question .text-container {
     padding-top: 30px;
 
 }
+
 .question .title {
     display: block;
     font-size: 24px;
+    line-height: 30px;
     font-weight: bold;
     color: #637069;
 }
+
 .question .text {
     display: block;
     margin-top: 20px;
@@ -130,40 +186,49 @@
     border: 1px solid #EBEBE9;
     border-radius: 8px;
 }
+
 .question .text:hover {
     cursor: pointer;
 }
+
 /* Result */
 .result {
     text-align: center;
     color: #637069;
 }
+
 .result .title {
     padding-top: 50px;
     font-size: 30px;
 }
+
 .result .title strong {
     font-weight: bold;
 }
+
 .result .subtitle {
     display: block;
     padding-top: 40px;
     font-size: 22px;
 }
+
 .result .perfume-img {
     padding: 30px 0;
     width: 300px;
 }
+
 .result .perfume-type {
     display: block;
     font-size: 24px;
     font-weight: bold;
 }
+
 .result .perfume-subtype {
     display: block;
     font-size: 20px;
     padding-top: 20px;
 }
+
 .result .perfume-text {
     display: block;
     padding: 30px 0;
@@ -172,6 +237,7 @@
     line-height: 26px;
     margin: 0 auto;
 }
+
 .result .btn-test {
     display: block;
     margin: 0 auto;
