@@ -2,6 +2,9 @@
 
 > SYFume에서 나에게 어울리는 향수를 찾아보세요 !
 
+
+[테스트 하러 가기](https://perfumetest-sy.web.app)
+
 ![메인 화면](/public/images/@img_main.png)
 ![메인 슬라이드](/public/images/@img_main2.png)
 ![테스트 페이지](/public/images/@img_question.png)
